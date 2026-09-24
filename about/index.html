@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/site.js" defer></script>
+  </head>
+  <body data-page="about">
+    <header class="site-header">
+      <div class="wrap site-header-inner">
+        <a href="/" class="brand">
+          <span data-brand-mark="32"></span>
+          <span class="brand-name" data-brand-name>Community</span>
+        </a>
+        <nav class="site-nav">
+          <a href="/">Home</a>
+          <a href="/about/" class="active">About</a>
+          <a href="/blog/">Blog</a>
+          <!-- /feeds is your community app, on this same address. -->
+          <a href="/feeds">Community</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap narrow section">
+      <p class="eyebrow" data-brand-name>Community</p>
+      <h1>About</h1>
+      <div class="prose">
+        <p class="lede">
+          This page is plain HTML in <code>about/index.html</code>. Say what your
+          community is about, who it is for and why people should join.
+        </p>
+        <p>
+          Add a page the same way: a folder with an <code>index.html</code> in it
+          becomes a page at that address. <code>team/index.html</code> is
+          <code>/team/</code>.
+        </p>
+      </div>
+      <div class="actions">
+        <a class="button" href="/join">Join</a>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer-inner">
+        <span>© <span data-year></span> <span data-brand-name>Community</span></span>
+        <span class="muted">Powered by EzyCommunity</span>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/site.js" defer></script>
+  </head>
+  <body data-page="post">
+    <header class="site-header">
+      <div class="wrap site-header-inner">
+        <a href="/" class="brand">
+          <span data-brand-mark="32"></span>
+          <span class="brand-name" data-brand-name>Community</span>
+        </a>
+        <nav class="site-nav">
+          <a href="/">Home</a>
+          <a href="/about/">About</a>
+          <a href="/blog/" class="active">Blog</a>
+          <!-- /feeds is your community app, on this same address. -->
+          <a href="/feeds">Community</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="post" hidden>
+        <header class="post-hero" id="post-hero">
+          <div class="wrap center post-hero-inner">
+            <h1 id="post-title"></h1>
+            <p class="post-meta" id="post-meta"></p>
+          </div>
+        </header>
+        <article class="wrap narrow section">
+          <div class="prose" id="post-body"></div>
+          <p class="terms" id="post-terms" hidden></p>
+          <p class="section"><a href="/blog/">← All posts</a></p>
+        </article>
+      </div>
+
+      <div class="wrap narrow section center" id="post-missing" hidden>
+        <p class="eyebrow">404</p>
+        <h1>This post does not exist</h1>
+        <p class="lede">It may have been unpublished, or the link is mistyped.</p>
+        <p><a class="button" href="/blog/">All posts</a></p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer-inner">
+        <span>© <span data-year></span> <span data-brand-name>Community</span></span>
+        <span class="muted">Powered by EzyCommunity</span>
+      </div>
+    </footer>
+  </body>
+</html>

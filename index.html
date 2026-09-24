@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Community</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/site.js" defer></script>
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="wrap site-header-inner">
+        <a href="/" class="brand">
+          <span data-brand-mark="32"></span>
+          <span class="brand-name" data-brand-name>Community</span>
+        </a>
+        <nav class="site-nav">
+          <a href="/" class="active">Home</a>
+          <a href="/about/">About</a>
+          <a href="/blog/">Blog</a>
+          <!-- /feeds is your community app, on this same address. -->
+          <a href="/feeds">Community</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap center">
+          <span data-brand-mark="72"></span>
+          <h1 data-brand-name>Community</h1>
+          <p class="lede">Welcome to <span data-brand-name>Community</span></p>
+          <!-- Join, Log in and the feed are your community app: plain links. -->
+          <div class="actions">
+            <a class="button" href="/join">Join</a>
+            <a class="button ghost" href="/login">Log in</a>
+            <a class="button link" href="/feeds">Open community →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap section" id="latest-posts" hidden>
+        <div class="section-head">
+          <h2>Latest from the blog</h2>
+          <a href="/blog/">All posts →</a>
+        </div>
+        <div class="grid grid-3" id="latest-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer-inner">
+        <span>© <span data-year></span> <span data-brand-name>Community</span></span>
+        <span class="muted">Powered by EzyCommunity</span>
+      </div>
+    </footer>
+  </body>
+</html>
